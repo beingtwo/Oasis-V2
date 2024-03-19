@@ -64,12 +64,6 @@ client.on('messageCreate', message => {
 
 // After setting up the client and commands...
 
-client.once('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  startShitposting(client); // This starts the shitposting routine
-  // The rest of your ready event code
-});
-
 
 
 

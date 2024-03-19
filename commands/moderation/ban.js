@@ -17,7 +17,7 @@ module.exports = {
       const banEmbedDM = new EmbedBuilder()
         .setColor(0xFF0000) 
         .setTitle('**Ban Notice**')
-        .setDescription('You have been permanently blacklisted from Shimo Dynasty for violating our terms of service, and you are no longer part of our community. If you wish to appeal, please appeal through the appeal form.')
+        .setDescription('You have been permanently blacklisted from the server for violating our terms of service, and you are no longer part of our community. If you wish to appeal, please appeal through the appeal form.')
         .addFields(
           { name: '**Reason**', value: reason },
           { name: '**Appeal**', value: 'Please fill this form to appeal: Not available until further notice.' }

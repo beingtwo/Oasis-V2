@@ -11,7 +11,7 @@ module.exports = {
         { name: '**Administrative Commands**', value: '`-ban`\n`-unban`\n`-kick`\n`-vmute`\n`-vunmute`\n`-timeout`\n`-untimeout`' },
         { name: '**Verification Commands(Removed until further notice)**', value: '`-verify`\n`-verifyhelp`' },
         { name: '**Misc Commands**', value: '`-commands`\n`-help`' },
-        { name: '**Fun Commands**', value: '`-dumb`\n`-fact`' },
+        { name: '**Fun Commands**', value: '`-dumb`' },
         { name: '**Early Access Commands**', value: 'Stay tuned for updates!' },
         { name: '**Developers**', value: '-uptime\n-refreshbot\n-ping' }
       )

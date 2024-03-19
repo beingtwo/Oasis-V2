@@ -5,7 +5,7 @@ module.exports = {
   description: 'Displays the bot\'s current ping.',
   async execute(message) {
     // ID of the required role
-    const requiredRoleId = "1211944541385531422";
+    const requiredRoleId = "1219662187862294639";
 
     // Check if the user has the required role
     if (!message.member.roles.cache.has(requiredRoleId)) {

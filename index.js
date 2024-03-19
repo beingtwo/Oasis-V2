@@ -30,9 +30,6 @@ const client = new Client({
 client.commands = new Collection();
 const commandFolders = fs.readdirSync('./commands');
 
-const startShitposting = require('./events/shitpost');
-require('./events/reactionrole')(client);
-require('./events/joinmessage')(client); 
 
 
 for (const folder of commandFolders) {
